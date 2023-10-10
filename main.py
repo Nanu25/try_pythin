@@ -2,6 +2,7 @@
 This will be a password generator with different simbol, letter, and numbers
 """
 
+import math
 import random
 import string
 
@@ -39,4 +40,5 @@ random.shuffle(password)
 result = ""
 for symbol in password:
     result += symbol
+
 print(result)
